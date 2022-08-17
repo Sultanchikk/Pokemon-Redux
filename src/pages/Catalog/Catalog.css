@@ -1,0 +1,159 @@
+.Catalog {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 9100px;
+}
+.ryzryv {
+  height: 10px;
+}
+
+.rounder {
+  position: relative;
+  left: 386px;
+  bottom: 25px;
+  width: 42px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 6px solid #000000;
+}
+
+.line {
+  position: relative;
+  left: 0;
+  top: 87px;
+  height: 8px;
+  width: 1440px;
+  left: -313px;
+  z-index: -1;
+  transform: rotate(90deg);
+}
+
+.r-p {
+  display: flex;
+  width: 800px;
+  margin-left:440px;  
+  margin-top: -330px;
+  height: 400px;
+}
+
+
+
+
+
+.sort {
+  width: 400px;
+  height: 85px;
+  position: relative;
+}
+
+.sort-items {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    left: 0px;
+    top: 18px;
+  }
+  
+  .sort p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .sort-items a {
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(63, 63, 63, 1);
+  }
+
+@media(max-width: 850px) {
+    .sort-items {
+        gap: 10px;
+        
+    }
+    .first-part {
+        gap: 60px;
+    }
+    .first-dropdown-content {
+      margin-left: 30px;
+      width: 124px;
+    }
+    .second-dropdown-content {
+      margin-left: 30px;
+      width: 124px;
+    }
+    .l-p {
+      width: 50%;
+    }
+    .first-dropdown-btn {
+      margin-left: 30px;
+    }
+
+    .first-dropdown-content p {
+      font-size: 15px;
+    }
+    .labelses {
+      font-size: 14px;
+    }
+
+}
+
+@media(max-width: 1300px){
+    .cards .card img {
+        width: 60%;
+    }
+
+    .card p {
+      margin-left: 70px;
+    }
+}
+
+@media(max-width: 1190px){
+  .cards {
+    grid-template-columns: repeat(1, 4fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+}
+.cards .card img {
+  width: 30%;
+}
+}
+@media(max-width: 900px){
+    .cards .card img {
+        width: 25%;
+    }
+    .cards {
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+    }
+    .sort-items {
+      gap: 20px;
+    }
+}
+
+@media(max-width: 300px){
+    .first-part{
+        flex-direction: column;
+    }
+    .first-dropdown-content {
+        margin-left: 30px;
+        width: 100px;
+      }
+      .second-dropdown-content {
+        margin-left: 30px;
+        width: 100px;
+      }
+      .first-dropdown-btn {
+        margin-left: 30px;
+      }
+      .sort {
+        margin-left: 30px;
+      }
+      .cards {
+        display: flex;
+        align-items: start;
+      }
+}

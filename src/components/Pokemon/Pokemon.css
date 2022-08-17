@@ -1,0 +1,17 @@
+
+.pokemonCard {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 1em;
+    position: relative;
+    margin-left: 160px;
+}
+.pokemonImg {
+    border: 6px solid #121212;
+    border-radius: 214px;
+}
+
+.card .pokemonName {
+    text-align: center;
+}

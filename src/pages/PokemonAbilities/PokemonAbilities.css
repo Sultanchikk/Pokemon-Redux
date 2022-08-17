@@ -1,0 +1,147 @@
+.backItem {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F3F;
+    cursor: pointer;
+}
+
+.back {
+    gap: 16px;
+    margin-top: 35px;
+    margin-left: 135px;
+}
+
+.help {
+    max-width: 1440px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.pokemonDatails {
+    margin-top: 32px;
+    width: 680px;
+    height: 184px;
+    margin-left: 135px;
+}
+.datails {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.2px;
+    color: #121212;
+}
+.red {
+    color: #C83C29;
+}
+
+.content {
+    width: 480px;
+    height: 294px;
+    border: 4px solid #121212;
+    border-radius: 24px;
+    padding-left: 40px;
+    margin-top: 350px;
+    margin-left: 135px;
+}
+.contentTitle {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #121212;
+}
+
+.contentItems {
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+.contentItem {
+    margin-top: 8px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #3F3F3F;
+}
+.surface {
+    margin-top: 60px;
+    margin-left: 135px;
+}
+.surfaceTitle {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.surfaceDatails p {
+    margin-top: 20px;
+    width: 720px;
+    height: 207px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #121212;
+}
+.character {
+    margin-top: 50px;
+    margin-left: 135px;
+}
+
+.characterDatails p {
+    width: 710px;
+    height: 338px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #121212;
+    margin-top: 20px;
+}
+.characterDatails p p {
+    width: 720px;
+}
+
+.characterTitle {
+    font-weight: 600;
+    font-size: 28px;
+}
+.capabilities {
+    margin-top: 50px;
+    margin-left: 135px;
+}
+
+.capabilitiesDatails p {
+    width: 710px;
+    height: 338px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #121212;
+    margin-top: 20px;
+}
+.capabilitiesDatails p p {
+    width: 720px;
+}
+
+.capabilitiesTitle {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    transform: translate(940px, -2070px);
+    border: 6px solid #121212;
+    border-radius: 214px;
+}
+
+.pokemonName {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #121212;
+    text-align: center;
+    margin-top: 10px;
+}
